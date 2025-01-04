@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML where an element that has its display style set to 'none' using JavaScript becomes inaccessible, even if you try to re-access it later.  The bug arises from incorrectly manipulating the DOM.  The solution involves adding the element back to the DOM tree after hiding it to maintain accessibility.
